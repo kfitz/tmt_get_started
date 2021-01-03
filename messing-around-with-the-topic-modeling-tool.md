@@ -1,6 +1,6 @@
 # Messing around with the Topic Modeling Tool
 
-Topic modeling, as we've discussed, is a method for finding "topics" (i.e., clusters of co-occurring words) in documents. It's easier to understand its possibilities and limitations when you try it for yourself.
+Topic modeling is a method for finding "topics" (that is, clusters of co-occurring words) in documents. It's easier to understand its possibilities and limitations when you try it for yourself.
 
 Luckily, a fairly easy-to-use tool makes this possible. The [Topic Modeling Tool](https://github.com/senderle/topic-modeling-tool) is a piece of software that implements the [MALLET (MAchine Learning for LanguagE Toolkit) package](http://mallet.cs.umass.edu/topics.php) to identify topics in documents of your choice. As we'll see, it's pretty easy to run the TMT. Analyzing the results is a bit trickier.
 
@@ -104,7 +104,7 @@ If you click again on the topics, you'll be returned to the detailed page for th
 
 ## Name your topics
 
-Click back to your **List of Topics** page and take another look at your topics. Working with your partner, give each topic a name that you believe indicates its contents. For example, I might call the first topic **Domestic Progress**. (But may not! It's up to you.)
+Click back to your **List of Topics** page and take another look at your topics. Working with your partner, give each topic a name that you believe indicates its contents. For example, I might call the first topic **Domestic Progress**. You might see something different it it.
 
 You may find you need to return to the original speeches to get a better sense of context. When you're done, you should have a list of 10 topics.
 
@@ -116,11 +116,11 @@ You may find you need to return to the original speeches to get a better sense o
 
 ## Try again
 
-If you've made it to this step, please raise your blue flag to signal that you've finished the major steps. While you wait for everyone to finish, I'd like you to run the TMT again, this time with more or fewer topics. What happens to your topics?
+Run the TMT again, this time with more or fewer topics. What happens to your topics?
 
-I'd also like you to give some thought to the division of the documents. Our files were divided by speech: one document per speech. How would our results look different if we aggregated the speeches, allotting (for example) one document per decade?
+Give some thought to the division of the documents. Our files were divided by speech: one document per speech. How would our results look different if we aggregated the speeches, allotting (for example) one document per decade?
 
-While you're waiting, a word or two about where you might go from here. The TMT, as you've seen, does a good job creating topic models. You can also use it to alter some options, such as the number of topics the TMT yields. However, as you proceed, you may find that you want to configure some options more finely: the output, for example, or the way the topics are classified. In that case, you'll want to turn to [MALLET](http://mallet.cs.umass.edu/index.php), which implements topic modeling algorithms from the [command line](https://programminghistorian.org/en/lessons/intro-to-bash). MALLET allows you more control over an array of options. You can find an excellent introduction to MALLET [here](https://programminghistorian.org/en/lessons/topic-modeling-and-mallet).
+A word or two about where you might go from here. The TMT, as you've seen, does a good job creating topic models. You can also use it to alter some options, such as the number of topics the TMT yields. However, as you proceed, you may find that you want to configure some options more finely: the output, for example, or the way the topics are classified. In that case, you'll want to turn to [MALLET](http://mallet.cs.umass.edu/index.php), which implements topic modeling algorithms from the [command line](https://programminghistorian.org/en/lessons/intro-to-bash). MALLET allows you more control over an array of options. You can find an excellent introduction to MALLET [here](https://programminghistorian.org/en/lessons/topic-modeling-and-mallet).
 
 ![][12]
 

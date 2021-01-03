@@ -1,6 +1,6 @@
 # Visualize your topic model
 
-In [the first part of this tutorial](https://github.com/miriamposner/tmt_get_started/blob/master/messing-around-with-the-topic-modeling-tool.md), we learned how to run the Topic Modeling Tool, and we began to interpret the results. In this second part of the tutorial, we'll learn how to visualize results so they're a little easier to understand. While we used the HTML files in the first part, we'll turn this time to our CSVs.
+In [the first part of this tutorial](https://github.com/kfitz/tmt_get_started/blob/master/messing-around-with-the-topic-modeling-tool.md), we learned how to run the Topic Modeling Tool, and we began to interpret the results. In this second part of the tutorial, we'll learn how to visualize results so they're a little easier to understand. While we used the HTML files in the first part, we'll turn this time to our CSVs.
 
 ## Open your TMT results folder
 
@@ -12,7 +12,7 @@ Find your **tmt_output** folder and open it. As you'll recall, the output is pre
 
 ## Open Tableau
 
-We'll be working with Tableau, just as we did last week. Double-click the Tableau icon to open the program.
+We'll be working with [Tableau](https://public.tableau.com/en-us/s/). Double-click the Tableau icon to open the program.
 
 ![][2]
 
@@ -20,7 +20,7 @@ We'll be working with Tableau, just as we did last week. Double-click the Tablea
 
 ## Load the topics-metadata file into Tableau
 
-You should remember how to do this from last week: Click on **Text file** under the **Connect** heading and find the **topics-metadata.csv** file that is within your **output_csv** folder.
+If you've completed the [Tableau Public tutorial](https://github.com/miriamposner/get-started-with-tableau/blob/master/getting-started-with-tableau-public.md) you'll know how to do this: Click on **Text file** under the **Connect** heading and find the **topics-metadata.csv** file that is within your **output_csv** folder.
 
 Click on **Sheet 1** to go to the visualization canvas.
 
@@ -60,11 +60,9 @@ Your bars should now be free of those document names.
 
 Spend some time investigating your visualization. Which topics rise in prominence over time? Which fade? Can you correlate the presence or absence of topics with historical events?
 
-Does the rise and fall of these topics ring true to you? Where would you investigate futher, if you could? What would you do to confirm the conclusions your visualization suggests?
+Does the rise and fall of these topics ring true to you? Where would you investigate further, if you could? What would you do to confirm the conclusions your visualization suggests?
 
 You can also investigate each topic in isolation by using the **Edit Filter...** option within the **Measure Names** context menu and checking only that topic.
-
-When you get here, please raise your blue flag so we can share what we've found, once everyone reaches the same point.
 
 Bonus round: Can you figure out how to make an area chart [like this one](https://public.tableau.com/views/inaugural_speeches_area_graph/Sheet1?:embed=y&:display_count=yes&publish=yes)? Hint 1: You'll need to edit the CSV file so that the file names are years. [Hint 2](https://onlinehelp.tableau.com/current/pro/desktop/en-us/qs_area_charts.htm).
 
